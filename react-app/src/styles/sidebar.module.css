@@ -9,6 +9,7 @@
     position: absolute;
     top: 100px; /* same as navbar height */
     bottom: 100px; /* same as footer height */
+    left: 0;
 }
 
 /* 
