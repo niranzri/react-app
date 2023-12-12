@@ -1,12 +1,12 @@
 import classes from '../styles/sidebar.module.css'
 
-function SideBar() {
+function Sidebar() {
     return (
     <div className={classes.sidebar}>
-        <div className={classes.sidebar-div}> <p className={classes.sidebar-text}> Home </p> </div>
-        <div className={classes.sidebar-div}> <p className={classes.sidebar-text}> About</p></div>
+        <div className={classes.sidebarDiv}> <p className={classes.sidebarText}> Home </p> </div>
+        <div className={classes.sidebarDiv}> <p className={classes.sidebarText}> About</p> </div>
     </div>
     );
 }
 
-export default SideBar;
+export default Sidebar;
