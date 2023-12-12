@@ -1,0 +1,45 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: left;
+    height: 70vh;
+    background-color:red;
+    /*position: absolute;
+    top: 100px; /* same as navbar height *//*
+    bottom: 100px; /* same as footer height */
+}
+
+/* 
+.navbar {
+  position: fixed;
+  top: 0;
+  height: 50px; 
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  height: 50px; 
+}*/
+
+.sidebar-div {
+    display: flex; 
+    height: 300px;
+    width: 200px;
+}
+
+.sidebar-text {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+}
+
+.sidebar-text:hover {
+    cursor: pointer;
+    background-color: #a5b9e8;
+}
+
+
+
