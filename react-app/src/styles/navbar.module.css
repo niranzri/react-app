@@ -1,4 +1,31 @@
-.mainCtn{
-display: flex;
 
-}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 95%; 
+  }
+  
+  .logo {
+    width: 40px; 
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .appName {
+    font-size: 24px;
+  }

@@ -1,19 +1,14 @@
-import classesNav from '../styles/navbar.module.css'
 
-function Navbar({appName,logo}) {
+import classesNavbar from '../styles/navbar.module.css';
+
+function Navbar() {
   return (
- 
-    <div>
-      <div>
-      <img src={logo}/>
+    <nav className={classesNavbar.navbar}>
+      <div className={classesNavbar.logoContainer}>
+        <img src="/path/to/your/logo.png" alt="Logo" className={classesNavbar.logo} />
+        <h1 className={classesNavbar.appName}>TaskZen</h1>
       </div>
-      <div>
-        <h1>{appName} </h1>
-      </div>
- 
-
-
-    </div>
+    </nav>
   );
 }
 
