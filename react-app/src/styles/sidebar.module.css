@@ -3,26 +3,9 @@
     flex-direction: column;
     justify-content: flex-start;
     background-color:#793FDF;
-    width: 12%;
+    width: 12vw;
     min-width: 150px;
-    position: fixed;
-    top: 80px; /* check this again temp. solution*/
-    bottom: 60px; /* same as footer height */
-    left: 0;
 }
-
-/* 
-.navbar {
-  position: fixed;
-  top: 0;
-  height: 50px; 
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  height: 50px; 
-}*/
 
 .sidebarDiv {
     width: auto;
@@ -33,13 +16,14 @@
 }
 
 .sidebarText {
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: 1.2rem;
     height: 100%;
     width: 100%;
+    color:#a5b9e8; 
 }
 
 .sidebarText:hover {

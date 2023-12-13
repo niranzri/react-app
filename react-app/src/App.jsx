@@ -14,10 +14,12 @@ function App() {
   return (
     <>
       <Navbar />
-   <div className='middleCtn'>
-      <Sidebar />
-      <Task />
-   </div>
+      <div className='middleCtn'>
+        <Sidebar />
+        <div className="blueContainer">
+        <Task />
+        </div>
+      </div>
       <Footer />
       
     </>

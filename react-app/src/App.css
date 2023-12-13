@@ -1,30 +1,40 @@
-#root {
-  max-width: 1280px;
-  margin: 0;
-  text-align: center;
-}
-
 html, body {
-  height: 100%;
+  height: 100vh;
+  min-height: 100vh;
   padding: 0;
+  margin:0;
   background-color: #7091F5;
   font-family: 'Sometype Mono', monospace;
 }
 
 .middleCtn{
-display: flex;
-width: 100%;
-top:60px;
-bottom: 60px;
-
+  display: flex;
+  width: 100%;
+  top: 80px;
+  bottom: 80px;
+  position: fixed;
 }
 
+.blueContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 88vw;
+  position: relative;
+}
 
-/* Other families to use with current link:
+/*#root {
+  max-width: 1280px;
+  margin: 0;
+  text-align: center;
+  display: flex;
+}
+
+Other families to use with current link:
   font-family: 'Abel', sans-serif;
   font-family: 'Big Shoulders Stencil Display', sans-serif;
-  font-family: 'Roboto', sans-serif;*/
-/*
+  font-family: 'Roboto', sans-serif;
+
 .logo {
   height: 6em;
   padding: 1.5em;
