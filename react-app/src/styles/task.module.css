@@ -10,6 +10,7 @@
     background-color: yellow;
     border-radius: 20px;
     position: absolute;
+    padding-bottom: 2%;
 }
 
 ul {
@@ -39,5 +40,7 @@ ul {
     border: none;
     padding: 2%;
     border-radius: 5px;
+    font-weight: bolder;
     background-color: #7091F5;
+    color: #5f3d8f;
 }
