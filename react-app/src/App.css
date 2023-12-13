@@ -11,12 +11,14 @@ html, body {
   font-family: 'Sometype Mono', monospace;
 }
 
-.mainCtn{
+.middleCtn{
 display: flex;
-align-items: center;
-justify-content: center;
+width: 100%;
+top:60px;
+bottom: 60px;
 
 }
+
 
 /* Other families to use with current link:
   font-family: 'Abel', sans-serif;

@@ -11,14 +11,10 @@ import './App.css'
 //<Sidebar />
 function App() {
 
-
-
   return (
     <>
-
       <Navbar />
-      
-   <div>
+   <div className='middleCtn'>
       <Sidebar />
       <Task />
    </div>
