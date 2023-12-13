@@ -19,7 +19,7 @@ return(
          <button>delete</button> 
          <button onClick={() => clickToDelete()} className="btn-delete"></button>
         </li> 
-
+        
     </ul>
    
 )

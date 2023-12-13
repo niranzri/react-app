@@ -1,15 +1,13 @@
 .sidebar {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: left;
-    background-color:red;
-    margin: 0;
-    height: 70vh;
+    justify-content: flex-start;
+    background-color:#793FDF;
+    width: 12%;
+    min-width: 150px;
     position: absolute;
     top: 100px; /* same as navbar height */
-    bottom: 100px; /* same as footer height */
-    left: 0;
+    bottom: 60px; /* same as footer height */
 }
 
 /* 
@@ -26,24 +24,27 @@
 }*/
 
 .sidebarDiv {
-    display: flex; 
-    height: 300px;
-    width: 200px;
-    display:flex;
-    justify-items: center;
-    flex-direction:row;
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sidebarText {
-    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
-    font-size: 14px;
-    text-align: center;
+    font-size: 1.2rem;
+    height: 100%;
+    width: 100%;
 }
 
 .sidebarText:hover {
     cursor: pointer;
     background-color: #a5b9e8;
+    color: black;
 }
 
 
