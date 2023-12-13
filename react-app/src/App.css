@@ -11,11 +11,18 @@ html, body {
   font-family: 'Sometype Mono', monospace;
 }
 
+.mainCtn{
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
 /* Other families to use with current link:
   font-family: 'Abel', sans-serif;
   font-family: 'Big Shoulders Stencil Display', sans-serif;
   font-family: 'Roboto', sans-serif;*/
-
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -51,3 +58,4 @@ html, body {
 .read-the-docs {
   color: #888;
 }
+*/
