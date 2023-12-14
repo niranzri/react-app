@@ -57,6 +57,27 @@ ul {
     color: #5f3d8f;
 }
 
+
+.newTask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: auto;
+    max-width: 600px;
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 2%;
+
+}
+
 a {
     text-decoration: none;
 }
+
