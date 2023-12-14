@@ -16,7 +16,7 @@ function App() {
       <Navbar />
       <div className='middleCtn'>
         <Sidebar />
-        <div className="blueContainer">
+        <div className="pageCtn">
         <Task />
         </div>
       </div>
