@@ -1,16 +1,13 @@
 import { useState } from 'react'
-import ironhackLogo from './assets/ironhack-logo-xs.png';
+import ironhackLogo from './assets/ironhack-logo-xs.png'; //placeholder for Navbar
 import Navbar from './components/Navbar.jsx'
 import Sidebar from './components/Sidebar.jsx'
 import Footer from './components/Footer.jsx'
-import Task from './components/List.jsx'
 import './App.css'
 import DashBoard from './pages/Dashboard.jsx';
 import AboutPage from './pages/AboutPage.jsx';
-//import ItemDetails from './pages/ItemDetails.jsx';
-
+import ItemDetails from './pages/ItemDetails.jsx';
 import tasksFromJson from './assets/tasks.json';
-
 import { Route, Routes } from 'react-router-dom'
 
 /*Dashboard Page - A page that the user sees first when they open the app. It should show the items list that you created previously.
@@ -29,6 +26,7 @@ function App() {
           <Routes>
      
             <Route path='/' element={<DashBoard />} />
+            <Route path='/tasks/:taskId' element={<ItemDetails tasks={tasks} />} />
             <Route path='/AboutPage' element={<AboutPage />} />
             <Route path='*' element={<h1>404 Page</h1>} />
 

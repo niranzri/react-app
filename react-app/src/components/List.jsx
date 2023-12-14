@@ -28,7 +28,7 @@ function List(){
             <ul>
             {tasks.map((currentTask) => {
                 return (
-                   <ListItem currentTask={currentTask} />
+                   <ListItem currentTask={currentTask} handleDelete={handleDelete} />
                 );
             })}
             </ul>
@@ -38,3 +38,8 @@ function List(){
 }
 
 export default List;
+
+/*{books.map(currentBook => (
+    <Link key={currentBook.id} to={`/books/${currentBook.id}`}>
+      <h2>{currentBook.title}</h2>
+    </Link>*/
