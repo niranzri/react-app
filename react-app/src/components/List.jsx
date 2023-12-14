@@ -28,7 +28,9 @@ function List(){
             <ul>
             {tasks.map((currentTask) => {
                 return (
-                   <ListItem currentTask={currentTask} handleDelete={handleDelete} />
+                    <Fragment key={currentTask.id}>
+                        <ListItem currentTask={currentTask} handleDelete={handleDelete} key={currentTask.id}/>
+                    </Fragment>
                 );
             })}
             </ul>
@@ -38,8 +40,3 @@ function List(){
 }
 
 export default List;
-
-/*{books.map(currentBook => (
-    <Link key={currentBook.id} to={`/books/${currentBook.id}`}>
-      <h2>{currentBook.title}</h2>
-    </Link>*/

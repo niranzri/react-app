@@ -14,18 +14,13 @@ import  '../App.css';
 
 
 function DashBoard() {
-    return (
-
-  
-        <div className='pageCtn' >
-          <Task />
-          </div>
-        
-        
-
-    )
-    }
+  return (
+    <div className='pageCtn' >
+        <Task />
+    </div>
+  )
+}
   
     
 
-    export default DashBoard
+export default DashBoard

@@ -1,6 +1,5 @@
 
 import classes from '../styles/list.module.css';
-import {Fragment} from 'react';
 import { Link } from 'react-router-dom';
 
 
@@ -9,7 +8,7 @@ function ListItem({currentTask, handleDelete}){
 
     return(
 
-        <Fragment key={currentTask.id}>
+        <>
                     {!currentTask.completed &&
                     <li className={classes.listItem}> 
 
@@ -19,7 +18,7 @@ function ListItem({currentTask, handleDelete}){
                         <button className={classes.btnTask} type='button' onClick={() => {handleDelete(currentTask.id)}}> Delete </button>
                     </li> }
                    { console.log(currentTask.id)}
-      </Fragment>
+        </>
       
     )
 

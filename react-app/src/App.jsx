@@ -24,7 +24,6 @@ function App() {
         <div className='middleCtn'>
           <Sidebar />
           <Routes>
-     
             <Route path='/' element={<DashBoard />} />
             <Route path='/tasks/:taskId' element={<ItemDetails tasks={tasks} />} />
             <Route path='/AboutPage' element={<AboutPage />} />
