@@ -2,12 +2,12 @@
 import tasksFromJson from '../assets/tasks.json';
 import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import classes from '../styles/task.module.css';
+import classes from '../styles/list.module.css';
 import {Fragment} from 'react';
 
 
 //<button onClick={() => clickToDelete()} className="btn-delete"></button>
-function Task(){
+function List(){
     const[tasks, setTasks] = useState(tasksFromJson.map((currentTask) => ({
         task: currentTask.task, 
         completed: currentTask.completed, 
@@ -43,4 +43,4 @@ function Task(){
 
 }
 
-export default Task;
+export default List;
