@@ -1,20 +1,16 @@
-
-import tasksFromJson from '../assets/tasks.json';
-import { useState } from 'react';
-
 import classes from '../styles/list.module.css';
 import {Fragment} from 'react';
 import ListItem from './ListItem.jsx';
 
-//<button onClick={() => clickToDelete()} className="btn-delete"></button>
-function List({tasks}){
+
+function List({tasks, setTasks}){
     console.log(tasks)
     const handleDelete = (id) => {
         const newTasks = tasks.filter((task) =>{
             return task.id !== id;
         }); 
     
-        setTasks(newTasks);
+    setTasks(newTasks);
     }
       
     return (

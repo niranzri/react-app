@@ -18,7 +18,7 @@ Not Found Page - A page that renders whenever a user navigates to a URL route th
 
 function App() {
 
-  const[tasks] = useState(tasksFromJson.map((currentTask) => ({
+  const[tasks, setTasks] = useState(tasksFromJson.map((currentTask) => ({
     ...currentTask, id: uuidv4()})
   ));
 
@@ -28,8 +28,8 @@ function App() {
         <div className='middleCtn'>
           <Sidebar />
           <Routes>
-            <Route path='/' element={<DashBoard tasks={tasks}/>} />
-            <Route path='/tasks/:taskId' element={<ItemDetails tasks={tasks} />} />
+            <Route path='/' element={<DashBoard tasks={tasks} setTasks = {setTasks}/>} />
+            <Route path='/tasks/:taskId' element={<ItemDetails tasks={tasks}/>} />
             <Route path='/AboutPage' element={<AboutPage />} />
             <Route path='*' element={<h1>404 Page</h1>} />
           </Routes>
