@@ -35,7 +35,7 @@ ul {
 }
 
 .btnTask{
-    flex: 2;
+    width: 100px;
     height: 2%;
     border: none;
     padding: 2%;
@@ -43,4 +43,20 @@ ul {
     font-weight: bolder;
     background-color: #7091F5;
     color: #5f3d8f;
+}
+
+.btnBack{
+    width: 100px;
+    height: 2%;
+    margin-top: 20px;
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #7091F5;
+    color: #5f3d8f;
+}
+
+a {
+    text-decoration: none;
 }

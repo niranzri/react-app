@@ -1,23 +1,11 @@
 
 import  '../App.css';
 
-
-
-
-
 function AboutPage() {
     return (
-
-  
         <div className='pageCtn' >
-         {/*add content*/}
-          </div>
-        
-        
-
+        </div>
     )
-    }
+}
   
-    
-
-    export default AboutPage
+export default AboutPage
