@@ -4,7 +4,7 @@ import { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import classes from '../styles/list.module.css';
 import {Fragment} from 'react';
-
+import ListItem from './ListItem.jsx';
 
 //<button onClick={() => clickToDelete()} className="btn-delete"></button>
 function List(){
@@ -28,13 +28,7 @@ function List(){
             <ul>
             {tasks.map((currentTask) => {
                 return (
-                    <Fragment key={currentTask.id}>
-                    {!currentTask.completed &&
-                    <li className={classes.listItem}>   
-                        <p className={classes.itemTask}>{currentTask.task}</p>
-                        <button className={classes.btnTask} type='button' onClick={() => handleDelete(currentTask.id)}> Delete </button>
-                    </li> }
-                    </Fragment>
+                   <ListItem currentTask={currentTask} />
                 );
             })}
             </ul>
