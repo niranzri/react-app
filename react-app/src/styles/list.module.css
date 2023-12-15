@@ -62,6 +62,10 @@ ul {
     background-color: transparent;
     margin-top: 20px;
 }
+
+span {
+    font-weight: bold;
+}
 /*
 .btnBack{
     width: 100px;
@@ -123,8 +127,3 @@ input {
     color: #5f3d8f;
     margin-left: auto;
 }*/
-
-a {
-    text-decoration: none;
-}
-

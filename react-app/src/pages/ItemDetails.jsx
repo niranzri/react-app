@@ -18,9 +18,9 @@ function ItemDetails({tasks}) {
     return (
         <div className='pageCtn' >
           <div className={classes.toDoList}>
-            <h2>Tasks Details</h2>
-            <p>{taskDetails.task}: </p>
-            {!taskDetails.completed ? <span>Pending</span> : <span>Done</span>}
+            <h2>Task Details </h2>
+            <p><span> Name: </span>{taskDetails.task}</p>
+            {!taskDetails.completed ? <p><span>Status:</span> Pending</p>: <p><span> Status: Done</span></p>}
             <NavLink to="/">   
             <button className={classes.btnBack}>
             <FontAwesomeIcon icon={faArrowLeft} size="2xl" />
