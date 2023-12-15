@@ -3,11 +3,10 @@ import { v4 as uuidv4 } from 'uuid';
 
 const NewTask = ({ tasks, setTasks }) => {
   const [task, setTask] = useState('');
-  console.log('Rendering NewTask component');
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const newTask = { id: uuidv4(), task, completed: false };
+    const newTask = { task, completed: false, id: uuidv4() };
     setTasks([...tasks, newTask]);
     setTask('');
   };

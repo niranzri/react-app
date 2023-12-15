@@ -1,14 +1,19 @@
 import classes from '../styles/list.module.css';
 import {Fragment} from 'react';
 import ListItem from './ListItem.jsx';
+import NewTask from '../pages/NewTask.jsx';
 
 
 function List({tasks, setTasks}){
-    console.log(tasks)
     const handleDelete = (id) => {
         const newTasks = tasks.filter((task) =>{
             return task.id !== id;
-        }); 
+        }).map(task => {
+            if (task.id === id) {
+                return {...task, completed: true}
+            }
+            return task;
+        });
     
     setTasks(newTasks);
     }
@@ -25,6 +30,7 @@ function List({tasks, setTasks}){
                 );
             })}
             </ul>
+            <NewTask classname={classes.newTask} tasks={tasks} setTasks={setTasks}/>
         </div>
     );
 
