@@ -1,5 +1,5 @@
 
-footer {
+.footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -13,4 +13,18 @@ footer {
     position: fixed;
     bottom: 0;
     height: 60px;
+    
+  }
+  .logoContainer {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%; 
+    left:0;
+  }
+  
+  .logo {
+    width: 50px; 
+    height: auto;
+    margin-left: 30px;
   }

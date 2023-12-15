@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { v4 as uuidv4 } from 'uuid'; // Import uuidv4 from uuid library
+import { v4 as uuidv4 } from 'uuid';
 
 const NewTask = ({ tasks, setTasks }) => {
   const [task, setTask] = useState('');
