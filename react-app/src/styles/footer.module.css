@@ -24,7 +24,8 @@
   }
   
   .logo {
-    width: 50px; 
+    width: 55px; 
     height: auto;
     margin-left: 30px;
+    cursor:pointer;      
   }
