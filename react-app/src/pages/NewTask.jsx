@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
 import classes from '../styles/list.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const NewTask = ({ tasks, setTasks }) => {
   const [task, setTask] = useState('');
@@ -19,7 +21,7 @@ const NewTask = ({ tasks, setTasks }) => {
         <label>
           <input required value={task} onChange={(event) => setTask(event.target.value)} />
         </label>
-        <button type="submit" className={classes.btnAddTask}>Add Task</button>
+        <button type="submit" className={classes.btnAddTask}><FontAwesomeIcon icon={faPlus} size="2xl"/></button>
       </form>
     </>
   );

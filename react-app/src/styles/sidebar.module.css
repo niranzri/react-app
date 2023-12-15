@@ -9,7 +9,7 @@
 
 .sidebarDiv {
     width: auto;
-    height: 80px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,9 +31,8 @@
     background-color: #a5b9e8;
     color: black;
 }
-
+/*
 .horizontalLine {
     border-bottom: 1px solid #a5b9e8;
     width: 100%;
-    margin-bottom: 10px; 
-  }
+  }*/

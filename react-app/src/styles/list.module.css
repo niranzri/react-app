@@ -50,9 +50,19 @@ ul {
     color: #5f3d8f;
     border: none;
     padding: 0;
-    margin: 0;
+    margin-left: 0;
+    background-color: transparent;
 }
 
+.btnBack  {
+    color: #5f3d8f;
+    border: none;
+    padding: 0;
+    margin-left: 0;
+    background-color: transparent;
+    margin-top: 20px;
+}
+/*
 .btnBack{
     width: 100px;
     height: 35px;
@@ -63,7 +73,7 @@ ul {
     font-weight: bolder;
     background-color: #7091F5;
     color: #5f3d8f;
-}
+}*/
 
 
 form {
@@ -76,9 +86,16 @@ form {
     gap: 10px;
 }
 
+label {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex: 8;
+}
+
 input {
     padding: 10px;
-    width: 300px;
+    width: 70%;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
@@ -86,6 +103,15 @@ input {
     font-size: 1rem;
 }
 
+.btnAddTask  {
+    color: #5f3d8f;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    margin-left:auto;
+}
+/*
 .btnAddTask {
     width: 100px;
     height: 35px;
@@ -96,7 +122,7 @@ input {
     background-color: #7091F5;
     color: #5f3d8f;
     margin-left: auto;
-}
+}*/
 
 a {
     text-decoration: none;

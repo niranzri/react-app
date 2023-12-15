@@ -13,7 +13,7 @@ function ListItem({currentTask, handleDelete}){
                 <Link key={currentTask.id} to= {`/tasks/${currentTask.id}`}>
                     <p className={classes.itemTask}>{currentTask.task}</p>
                 </Link>
-                <button className={classes.btnTask} type='button' onClick={() => {handleDelete(currentTask.id)}}> <FontAwesomeIcon icon={faTrash}/> </button>
+                <button className={classes.btnTask} type='button' onClick={() => {handleDelete(currentTask.id)}}> <FontAwesomeIcon icon={faTrash} size="2xl"/> </button>
             </li> }
         </>
     )
