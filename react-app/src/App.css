@@ -23,6 +23,11 @@ html, body {
   position: relative;
 }
 
+h1, h2 {
+  text-align: left;
+  align-items: left;
+}
+
 /*#root {
   max-width: 1280px;
   margin: 0;

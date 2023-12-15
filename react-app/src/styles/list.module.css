@@ -34,20 +34,28 @@ ul {
     width: 100%;
 }
 
+/*
 .btnTask{
     width: 100px;
-    height: 2%;
+    height: 35px;
     border: none;
     padding: 2%;
     border-radius: 5px;
     font-weight: bolder;
     background-color: #7091F5;
     color: #5f3d8f;
+}*/
+
+.btnTask  {
+    color: #5f3d8f;
+    border: none;
+    padding: 0;
+    margin: 0;
 }
 
 .btnBack{
     width: 100px;
-    height: 2%;
+    height: 35px;
     margin-top: 20px;
     border: none;
     padding: 2%;
@@ -58,27 +66,37 @@ ul {
 }
 
 
-
-/*
-.newTask{
+form {
     display: flex;
-    flex-direction: column;
+    width: 80%;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    width: 90%;
-    height: auto;
-    max-width: 600px;
-    color: black;
-    background-color: yellow;
-    border-radius: 20px;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding-bottom: 2%;
+    flex-wrap: nowrap;
+    font-size: 1rem;
+    gap: 10px;
+}
 
-}*/
+input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 1rem;
+}
 
+.btnAddTask {
+    width: 100px;
+    height: 35px;
+    border: none;
+    padding: 2%;
+    border-radius: 5px;
+    font-weight: bolder;
+    background-color: #7091F5;
+    color: #5f3d8f;
+    margin-left: auto;
+}
 
 a {
     text-decoration: none;

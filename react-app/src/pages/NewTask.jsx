@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
+import classes from '../styles/list.module.css';
 
 const NewTask = ({ tasks, setTasks }) => {
   const [task, setTask] = useState('');
@@ -16,10 +17,9 @@ const NewTask = ({ tasks, setTasks }) => {
       <h2>Add New Task</h2>
       <form onSubmit={handleSubmit}>
         <label>
-         {/* Task */}
           <input required value={task} onChange={(event) => setTask(event.target.value)} />
         </label>
-        <button type="submit">Add Task</button>
+        <button type="submit" className={classes.btnAddTask}>Add Task</button>
       </form>
     </>
   );
