@@ -7,7 +7,8 @@
     height: auto;
     max-width: 600px;
     color: black;
-    background-color: yellow;
+    background-color:white;
+    border: 1px solid black;
     border-radius: 20px;
     position: absolute;
     padding-bottom: 30px;
@@ -52,6 +53,13 @@ ul {
     padding: 0;
     margin-left: 0;
     background-color: transparent;
+}
+
+.saveBtn {
+    border: none;
+    color: #5f3d8f;
+    background-color: transparent;
+
 }
 
 .btnBack  {
@@ -107,6 +115,7 @@ input {
     font-size: 1rem;
 }
 
+
 .btnAddTask  {
     color: #5f3d8f;
     border: none;
@@ -114,6 +123,17 @@ input {
     margin: 0;
     background-color: transparent;
     margin-left:auto;
+}
+
+
+.editInput {
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 1rem;
 }
 /*
 .btnAddTask {

@@ -3,9 +3,12 @@ html, body {
   min-height: 100vh;
   padding: 0;
   margin:0;
-  background-color: #7091F5;
-  font-family: 'Sometype Mono', monospace;
+  background-color: white;
+  /*font-family: 'Sometype Mono', monospace;*/
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
 }
+/* 'Open Sans', 'Helvetica Neue', sans-serif;   ...font alternative*/
+
 
 .middleCtn{
   display: flex;
