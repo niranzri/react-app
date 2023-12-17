@@ -14,15 +14,28 @@ h3{
 }
 
 .content {
-    padding: 6px;
+    padding: 2px;
     font-size: 14px;
     border: 2px solid #1A1A1A;
      border-radius: 15px;
-     box-sizing: border-box;
+     box-sizing: content-box;
+     width: 80%;
+     margin-bottom: 10px;
+     padding-left: 20px;
+
+
+}
+
+a {
+display: flex;
+justify-content: end;
+
 }
 
 .team{
- 
+display: flex;
+align-items: center;
+flex-direction: column;
 }
 
 .img{
@@ -32,18 +45,24 @@ h3{
 
 .icone{
     width:  8%;
+  
+    
 }
-.middleCtn{
+.iconeCtn{
     display: flex;
+    align-self: flex-end;
     flex-direction: column;
-    justify-content: start;
+    left:0;
+ 
 }
+
 .info{
 display: flex;
 flex-direction: row;
 align-items: center;
 
-justify-content: space-between;
+justify-content: space-around;
+margin-bottom: 10px;
 
 }
 /*

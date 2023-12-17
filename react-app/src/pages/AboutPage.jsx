@@ -26,11 +26,12 @@ function AboutPage() {
 
             <div className={classes.content}>
             <h3>Noealia</h3>
+            
             <div className={classes.info}>
 
             <img src={imgNoelia} alt="Noelia" className={classes.img} />
             <p>Here what you want to say about you</p>
-            <div className={classes.middleCtn}>
+            <div className={classes.iconeCtn}>
             <a href="https://www.linkedin.com/in/noeliairanzoribera/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
              <a href="https://github.com/niranzri" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
              
@@ -44,12 +45,13 @@ function AboutPage() {
             <div className={classes.info}>
             <img src={imgHristina} alt="Hristina" className={classes.img} />
             <p>Here what you want to say about you</p>
-            <div className={classes.middleCtn}>
+           
+            <div className={classes.iconeCtn}>
             <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
             <a href="https://github.com/HristinaGjo" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
 
+            
             </div>
-
             </div>
             </div>
 
@@ -59,7 +61,7 @@ function AboutPage() {
             <div className={classes.info}>
             <img src={imgMarine} alt="Marine" className={classes.img} />
             <p>Here what you want to say about you</p>
-            <div className={classes.middleCtn}>
+            <div className={classes.iconeCtn}>
             <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
             <a href="https://github.com/MarineLC" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
 
