@@ -1,6 +1,8 @@
 .text{
-
-
+display: flex;
+flex-direction: column;
+align-items: start;
+margin-left: 20px;
 }
 
 .mainCtn{
@@ -23,14 +25,19 @@ h3{
      margin-bottom: 10px;
      padding-left: 20px;
      background-color: antiquewhite;
+     
 
 
 }
 
 a {
-display: flex;
-justify-content: end;
-
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  width: 100%; 
+  left:0;
+  text-overflow: ellipsis;
+  width: 40%;
 }
 
 .team{
@@ -46,14 +53,14 @@ flex-direction: column;
 
 .icone{
     width:  8%;
-  
-    
+
 }
 .iconeCtn{
     display: flex;
-    align-self: flex-end;
-    flex-direction: column;
-    left:0;
+    align-items: start;
+    /*align-self: flex-end;
+    flex-direction: column;*/
+    
  
 }
 
@@ -62,7 +69,6 @@ display: flex;
 flex-direction: row;
 align-items: center;
 
-justify-content: space-around;
 margin-bottom: 10px;
 
 }
