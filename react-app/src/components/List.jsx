@@ -5,7 +5,16 @@ import ListItem from './ListItem.jsx';
 import NewTask from '../pages/NewTask.jsx';
 
 function List({tasks, setTasks}){
-    const handleDelete = (id) => {
+
+  const handleDelete = (id) => {
+    const newTasks = tasks.map(task => {
+        if (task.id === id) {
+            return {...task, completed: true}
+        }
+        return task;
+    });
+
+    /*const handleDelete = (id) => {
         const newTasks = tasks.filter((task) =>{
             return task.id !== id;
         }).map(task => {
@@ -13,7 +22,7 @@ function List({tasks, setTasks}){
                 return {...task, completed: true}
             }
             return task;
-        });
+        });*/
     
     setTasks(newTasks);
     }

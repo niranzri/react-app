@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 
 const NewTask = ({ tasks, setTasks }) => {
-  const [task, setTask] = useState('');
+  const [task, setTask] = useState(''); 
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const newTask = { task, completed: false, id: uuidv4() };
+    const newTask = { task, completed: false, id: uuidv4() }; 
     setTasks([...tasks, newTask]);
-    setTask('');
+    setTask(''); 
   };
 
   return (

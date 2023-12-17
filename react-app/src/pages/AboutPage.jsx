@@ -77,7 +77,7 @@ function AboutPage() {
             <Collapsible name={"Marine"} information={"test3"} label="Noelia" />*/}
             
 
-        </div>
+        </div> 
         </div>
     )
 }

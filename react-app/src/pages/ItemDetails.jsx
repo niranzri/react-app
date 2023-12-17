@@ -25,7 +25,7 @@ function ItemDetails({tasks}) {
             <button className={classes.btnBack}>
             <FontAwesomeIcon icon={faArrowLeft} size="2xl" />
             </button>
-          </NavLink> 
+            </NavLink> 
           </div>
         </div>
     )
