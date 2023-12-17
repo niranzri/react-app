@@ -34,7 +34,7 @@ function AboutPage() {
 
 
                     <div className={classes.text}>
-                         <h3>Noealia</h3>
+                         <h3>Noelia</h3>
                          <p>Here what you want to say about you</p>
                               <div className={classes.iconeCtn}>
                                    <a href="https://www.linkedin.com/in/noeliairanzoribera/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
