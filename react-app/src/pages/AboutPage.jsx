@@ -14,17 +14,20 @@ function AboutPage() {
     return (
         <div className='pageCtn' >
             <div className={classes.mainCtn}>
-     
-            <h2>Description</h2> 
+            <div className={classes.team}>
+
             
+            <div className={classes.content}>
+            <h2>The project</h2> 
             <div>
             <p className={classes.text}>To-do app allowing the user to create and manage tasks, as well as check off (or uncheck) the existing tasks when completed</p>
-            
+            </div>
             </div >
-            <div className={classes.team}>
-            <h2>About the team</h2>
+            
+            
 
             <div className={classes.content}>
+           
             <h3>Noealia</h3>
             
             <div className={classes.info}>
