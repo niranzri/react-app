@@ -48,7 +48,8 @@ function AboutPage() {
                           <img src={imgHristina} alt="Hristina" className={classes.img} />
                              <div className={classes.text}>
                                  <h3>Hristina</h3>
-                                 <p>Here what you want to say about you</p>
+                                 <p>Hi I am Hristina. I am a passionate UX Designer with background in architecture. 
+                                    Currently enrolled in the web development course, determined to further upskill my capabilities as a UX Designer.</p>
  
                              </div>
                              <div className={classes.iconeCtn}>
