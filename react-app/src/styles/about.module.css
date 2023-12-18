@@ -3,6 +3,7 @@ display: flex;
 flex-direction: column;
 align-items: start;
 margin-left: 20px;
+flex-grow: 6;
 }
 
 .mainCtn{
@@ -30,6 +31,17 @@ h3{
 
 }
 
+.info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 50px;
+  
+  }
+
 
 .iconeCtn a {
   
@@ -39,8 +51,7 @@ h3{
 
   width: 12vw; 
   block-size: fit-content;
-  /*left:0;
-  text-overflow: ellipsis;*/
+ right:20px;
 
 
 }
@@ -66,25 +77,16 @@ flex-direction: column;
 }
 
 .iconeCtn{
-    display: flex;
-    flex-direction: column;
-    
-    align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-right: 20px;;
     
 }
 
 
 
-.info{
-display: flex;
-flex-direction: row;
-justify-content: start;
-align-items: center;
-margin-top: 10px;
-margin-bottom: 10px;
-gap: 50px;
 
-}
 
 
 

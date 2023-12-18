@@ -64,16 +64,24 @@ function AboutPage() {
                              <img src={imgMarine} alt="Marine" className={classes.img} />
                                  <div className={classes.text}>
                                       <h3>Marine</h3>
-                                      <p>Here what you want to say about you</p>
-   
+                                      <p>After a master degree in chemistry,<br/> I learned Java and I worked as a java developper for 4 years </p>
+                                    
                                   </div>
                                   <div className={classes.iconeCtn}>
                                         <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
                                         <a href="https://github.com/MarineLC" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
                                  </div>
                          </div>
+                         
                   </div>
+
+
+                  
              </div>
+
+            
+
+
 
             
           </div> 
