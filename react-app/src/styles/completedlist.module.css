@@ -45,6 +45,7 @@ ul {
     background-color: #5f3d8f;
     color: white;
     font-size: 1rem;
+    cursor:pointer; 
 }
 
 span {
@@ -59,6 +60,7 @@ span {
     margin-left: 0;
     background-color: transparent;
     margin-top: 20px;
+    cursor:pointer; 
 }
 
 /*

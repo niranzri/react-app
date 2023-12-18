@@ -5,11 +5,10 @@ html, body {
   margin:0;
   background-color: white;
   /*font-family: 'Sometype Mono', monospace;*/
-  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+  font-family:'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
-/* 'Open Sans', 'Helvetica Neue', sans-serif;   ...font alternative*/
-
-
+ 
 .middleCtn{
   display: flex;
   width: 100%;
@@ -34,6 +33,7 @@ a {
 a:visited {
   color: inherit;
 }
+
 
 /*#root {
   max-width: 1280px;
