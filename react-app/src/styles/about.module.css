@@ -30,7 +30,7 @@ h3{
 
 }
 
-a {
+.iconeCtn a {
   display: flex;
   justify-content: space-between; 
   align-items: center;
@@ -68,7 +68,6 @@ flex-direction: column;
 display: flex;
 flex-direction: row;
 align-items: center;
-
 margin-bottom: 10px;
 
 }
