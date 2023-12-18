@@ -16,10 +16,10 @@ const NewTask = ({ tasks, setTasks }) => {
 
   return (
     <>
-      <h2>Add New Task</h2>
+      <h2>Add new task</h2>
       <form onSubmit={handleSubmit}>
         <label>
-          <input required value={task} onChange={(event) => setTask(event.target.value)} />
+          <input required value={task} onChange={(event) => setTask(event.target.value)}/>
         </label>
         <button type="submit" className={classes.btnAddTask}><FontAwesomeIcon icon={faPlus} size="2xl"/></button>
       </form>

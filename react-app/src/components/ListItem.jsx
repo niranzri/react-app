@@ -2,7 +2,6 @@ import classes from '../styles/list.module.css';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
-import { useState } from 'react';  
 import EditForm from './EditForm';  
 
 function ListItem({ currentTask, handleDelete, handleEdit, editingTask, handleSaveEdit }) {
@@ -21,10 +20,10 @@ function ListItem({ currentTask, handleDelete, handleEdit, editingTask, handleSa
                             <Link key={currentTask.id} to={`/tasks/${currentTask.id}`}>
                                 <p className={classes.itemTask}>{currentTask.task}</p>
                             </Link>
-                            <button className={classes.btnTask} type="button" onClick={() => handleEdit(currentTask.id)}>
-                            <FontAwesomeIcon icon={faEdit} size="2xl" />
+                            <button className={classes.btnEdit} type="button" onClick={() => handleEdit(currentTask.id)}>
+                                <FontAwesomeIcon icon={faEdit} size="2xl" />
                             </button>
-                            <button className={classes.btnTask} type='button' onClick={() => { handleDelete(currentTask.id) }}>
+                            <button className={classes.btnDelete} type='button' onClick={() => handleDelete(currentTask.id)}>
                                 <FontAwesomeIcon icon={faTrash} size="2xl" />
                             </button>
                         </>

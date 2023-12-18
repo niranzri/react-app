@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import classes from '../styles/list.module.css';
 import {Fragment} from 'react';
 import ListItem from './ListItem.jsx';
-import NewTask from '../pages/NewTask.jsx';
+import NewTask from '../components/NewTask.jsx';
 
-function List({tasks, setTasks}){
+function ToDoList({tasks, setTasks}) {
 
   const handleDelete = (id) => {
     const newTasks = tasks.map(task => {
@@ -13,16 +13,6 @@ function List({tasks, setTasks}){
         }
         return task;
     });
-
-    /*const handleDelete = (id) => {
-        const newTasks = tasks.filter((task) =>{
-            return task.id !== id;
-        }).map(task => {
-            if (task.id === id) {
-                return {...task, completed: true}
-            }
-            return task;
-        });*/
     
     setTasks(newTasks);
     }
@@ -65,4 +55,4 @@ const handleSaveEdit = (id, editedTask) => {
 
 }
 
-export default List;
+export default ToDoList;

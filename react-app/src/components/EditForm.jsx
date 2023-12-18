@@ -17,16 +17,18 @@ function EditForm({ taskId, initialTask, onSaveEdit }) {
   };
 
   return (
-    <div>
-      <input className={classes.editInput}
+    <>
+      <label className={classes.editLabel}>
+        <input className={classes.editInput}
         type="text"
         value={editedTask}
         onChange={handleInputChange}
-      />
+        />
+      </label>
       <button className={classes.saveBtn} type="button" onClick={handleSave}>
       <FontAwesomeIcon icon={faSave} size="2xl" />
       </button>
-    </div>
+    </>
   );
 }
 

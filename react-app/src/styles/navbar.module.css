@@ -1,32 +1,31 @@
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color:black;
-    color: white;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    height: 60px;
-    position: fixed;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:black;
+  color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;
+  height: 60px;
+  position: fixed;
+}
   
-  .logoContainer {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    width: 100%; 
-    left:0;
-  }
+.logoContainer {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  width: 100%; 
+}
   
-  .logo {
-    width: 50px; 
-    height: auto;
-    margin-left: 1400px;
-  }
+.logo {
+  width: 50px; 
+  height: auto;
+  margin-right: 40px;
+}
   
   /*.appName {
     font-size: 24px;

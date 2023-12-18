@@ -1,10 +1,10 @@
-import List from '../components/List.jsx';
+import ToDoList from '../components/ToDoList.jsx';
 import '../App.css';
 
 function DashBoard({tasks, setTasks}) {
   return (
     <div className='pageCtn'>
-        <List tasks={tasks} setTasks={setTasks}/>
+        <ToDoList tasks={tasks} setTasks={setTasks}/>
     </div>
   )
 }
