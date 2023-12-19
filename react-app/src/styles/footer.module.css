@@ -2,9 +2,8 @@
 .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end; /* justify-content: space-around; */
     align-items: center;
-    padding: 10px;
     bottom: 0; 
     left: 0;
     right: 0;
@@ -13,19 +12,27 @@
     position: fixed;
     bottom: 0;
     height: 60px;
-    
+    padding: 10px 0px 10px 0px;
   }
+  /*
   .logoContainer {
     display: flex;
     justify-content: space-between; 
     align-items: center;
     width: 100%; 
     left:0;
-  }
+  }*/
   
   .logo {
-    width: 55px; 
     height: auto;
-    margin-left:1400px;
-    cursor:pointer;      
+    cursor:pointer;  
+    width: 50px; 
+    height: auto;
+    /*margin-right: 40px;  */
+  }
+
+  .logoContainer {
+    height: auto;
+    cursor:pointer;  
+    margin-right: 30px;  
   }
