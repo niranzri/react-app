@@ -22,10 +22,9 @@
     font-size: 1.2rem;
     height: 100%;
     width: 100%;
-    color: #EEEEEE;
     color:#a5b9e8; 
     font-family: 'Open Sans', sans-serif;
-    padding-left: 15px;
+    padding-left: 5%;
 }
 
 .sidebarText:hover {

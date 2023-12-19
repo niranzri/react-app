@@ -96,6 +96,7 @@ input {
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -124,6 +125,7 @@ input {
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 .saveBtn {
