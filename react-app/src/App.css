@@ -4,10 +4,9 @@ html, body {
   padding: 0;
   margin:0;
   background-color: #EEEEEE;
-  /*font-family: 'Sometype Mono', monospace;*/
-  font-family: 'Segoe UI', 'Open Sans', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
- 
+
 .middleCtn{
   display: flex;
   width: 100%;
@@ -35,15 +34,3 @@ a:visited {
   color: inherit;
 }
 
-
-/*#root {
-  max-width: 1280px;
-  margin: 0;
-  text-align: center;
-  display: flex;
-}
-
-Other families to use with current link:
-  font-family: 'Abel', sans-serif;
-  font-family: 'Big Shoulders Stencil Display', sans-serif;
-  font-family: 'Roboto', sans-serif;

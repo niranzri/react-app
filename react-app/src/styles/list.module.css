@@ -9,13 +9,13 @@
     color: black;
     background-color:white;
     border-radius: 20px;
-    /*position: absolute;*/
     padding-bottom: 30px;
     filter: drop-shadow(5px 5px 10px #516594);
 }
 
 h2 {
     font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -69,7 +69,7 @@ ul {
 }
 
 span {
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 form {
@@ -95,7 +95,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
 }
 
@@ -124,7 +123,6 @@ input {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-sizing: border-box;
-    font-family: 'Open Sans', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1rem;
 }
 

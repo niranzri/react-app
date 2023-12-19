@@ -37,19 +37,16 @@ ul {
 
 
 .btnTask {
-    width: 100px;
-    height: 35px;
+    width: 20%;
+    min-width: 50px;
+    height: auto;
     border: none;
     padding: 2%;
     border-radius: 7px;
     background-color: #3941C6;
-    color: white;
+    color: #EEEEEE;
     font-size: 1rem;
-    cursor:pointer; 
-}
-
-span {
-    font-weight: bold;
+    cursor: pointer; 
 }
 
 .btnBack  {
