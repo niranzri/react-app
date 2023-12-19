@@ -8,14 +8,6 @@ import { NavLink } from 'react-router-dom';
 
 function CompletedList({tasks, setTasks}) {
     const handleUndo = (id) => {
-        /*const newTasks = tasks.filter((task) =>{
-            return task.id !== id;
-        }).map(task => {
-            if (task.id === id) {
-                return {...task, completed: false}
-            }
-            return task;
-        });*/
 
         const newTasks = tasks.map(task => {
             if (task.id === id) {
@@ -23,7 +15,6 @@ function CompletedList({tasks, setTasks}) {
             }
             return task;
         });
-    
     
     setTasks(newTasks);
     }

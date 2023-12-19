@@ -18,17 +18,14 @@ function AboutPage() {
                   
                  <div className={classes.team}>
                     <div className={classes.title}>
-                         <h2>The project :</h2> 
+                         <h2>The project: </h2> 
                      </div>
                   <div className={classes.content}>
-
-                         <div>
-                             <p className={classes.text}>To-do app allowing the user to create and manage tasks, as well as check off (or uncheck) the existing tasks when completed</p>
-                         </div>
+                             <p className={classes.text}> <span> Do </span> is a to-do app which allows the user to create and manage tasks, as well as check off (or uncheck) the existing tasks when completed</p>
                    </div >
             
                    <div className={classes.title}>
-                         <h2>The team :</h2> 
+                         <h2>The makers: </h2> 
                    </div>
                   <div className={classes.content}>
                       <div className={classes.info}>
@@ -36,11 +33,12 @@ function AboutPage() {
                           
                              <div className={classes.text}>
                                    <h3>Noelia</h3>
-                                  <p>Here what you want to say about you</p>
+                                  <p> Hi, I am Noelia. I am a physicist and philosopher by training. After having worked as a university lecturer for a while, I decided to pusue a career switch. 
+                                    Front-end development offers the perfect balance between analytical and creative work; that's why I enrolled in Ironhack's web development bootcamp. </p>
                              </div>
-                             <div className={classes.iconeCtn}>
-                                        <a  href="https://www.linkedin.com/in/noeliairanzoribera/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
-                                         <a href="https://github.com/niranzri" target="_blank" ><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
+                             <div className={classes.iconCtn}>
+                                        <a  href="https://www.linkedin.com/in/noeliairanzoribera/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icon} /></a>
+                                        <a href="https://github.com/niranzri" target="_blank" ><img src={githabLogo} alt="githabLogo" className={classes.icon} /></a>
                             </div>        
                       </div>
                  </div>
@@ -51,13 +49,13 @@ function AboutPage() {
                           <img src={imgHristina} alt="Hristina" className={classes.img} />
                              <div className={classes.text}>
                                  <h3>Hristina</h3>
-                                 <p>Hi I am Hristina. I am a passionate UX Designer with background in architecture. 
+                                 <p>Hi, I am Hristina. I am a passionate UX Designer with a background in architecture. 
                                     Currently enrolled in the web development course, determined to further upskill my capabilities as a UX Designer.</p>
  
                              </div>
-                             <div className={classes.iconeCtn}>
-                                         <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
-                                         <a href="https://github.com/HristinaGjo" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
+                             <div className={classes.iconCtn}>
+                                         <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icon} /></a>
+                                         <a href="https://github.com/HristinaGjo" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icon} /></a>
                                     </div>
                          </div>
                      </div>
@@ -68,12 +66,12 @@ function AboutPage() {
                              <img src={imgMarine} alt="Marine" className={classes.img} />
                                  <div className={classes.text}>
                                       <h3>Marine</h3>
-                                      <p>After a master degree in chemistry,<br/> I learned Java and I worked as a java developper for 4 years </p>
+                                      <p>Hi, I am Marine. After a master degree in chemistry, I learned Java and I worked as a Java developper for 4 years. </p>
                                     
                                   </div>
-                                  <div className={classes.iconeCtn}>
-                                        <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icone} /></a>
-                                        <a href="https://github.com/MarineLC" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icone} /></a>
+                                  <div className={classes.iconCtn}>
+                                        <a href="https://www.linkedin.com/in/gjorgieva/" target="_blank" rel="noreferrer"><img src={linkdn} alt="linkdn" className={classes.icon} /></a>
+                                        <a href="https://github.com/MarineLC" target="_blank" rel="noreferrer"><img src={githabLogo} alt="githabLogo" className={classes.icon} /></a>
                                  </div>
                          </div>
                          

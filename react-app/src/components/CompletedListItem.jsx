@@ -11,7 +11,7 @@ function CompletedListItem({currentTask, handleUndo}){
                 <Link key={currentTask.id} to= {`/tasks/${currentTask.id}`}>
                     <p className={classes.itemTask}>{currentTask.task}</p>
                 </Link>
-                <button className={classes.btnTask} type='button' onClick={() => {handleUndo(currentTask.id)}}> UNDO </button>
+                <button className={classes.btnTask} type='button' onClick={() => {handleUndo(currentTask.id)}}> Undo </button>
             </li> }
         </>
     )

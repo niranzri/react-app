@@ -11,7 +11,7 @@
     border-radius: 20px;
     position: absolute;
     padding-bottom: 30px;
-    border: 1px solid black;
+    filter: drop-shadow(5px 5px 10px #516594);
 }
 
 ul {
@@ -42,7 +42,7 @@ ul {
     border: none;
     padding: 2%;
     border-radius: 7px;
-    background-color: #5f3d8f;
+    background-color: #3941C6;
     color: white;
     font-size: 1rem;
     cursor:pointer; 
@@ -54,26 +54,14 @@ span {
 
 .btnBack  {
     justify-items: center;
-    color: #5f3d8f;
+    color: #3941C6;
     border: none;
     padding: 0;
     margin-left: 0;
     background-color: transparent;
     margin-top: 20px;
-    cursor:pointer; 
+    cursor: pointer; 
 }
 
-/*
-.btnBack{
-    width: 100px;
-    height: 35px;
-    margin-top: 20px;
-    border: none;
-    padding: 2%;
-    border-radius: 5px;
-    font-weight: bolder;
-    background-color: #7091F5;
-    color: #5f3d8f;
-}*/
 
 

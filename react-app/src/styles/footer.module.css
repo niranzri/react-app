@@ -7,28 +7,18 @@
     bottom: 0; 
     left: 0;
     right: 0;
-    background-color: black;
+    background-color: #6a89f0;
     color: white;
     position: fixed;
     bottom: 0;
     height: 60px;
     padding: 10px 0px 10px 0px;
   }
-  /*
-  .logoContainer {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    width: 100%; 
-    left:0;
-  }*/
   
   .logo {
     height: auto;
     cursor:pointer;  
     width: 50px; 
-    height: auto;
-    /*margin-right: 40px;  */
   }
 
   .logoContainer {

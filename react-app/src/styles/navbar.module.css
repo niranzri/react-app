@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color:black;
+  background-color: #6a89f0;
   color: white;
   top: 0;
   left: 0;
@@ -27,6 +27,3 @@
   margin-right: 40px;
 }
   
-  /*.appName {
-    font-size: 24px;
-  }*/

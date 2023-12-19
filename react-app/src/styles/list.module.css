@@ -4,18 +4,18 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    height: auto;
     max-width: 600px;
+    height: auto;
     color: black;
     background-color:white;
-    border: 1px solid black;
     border-radius: 20px;
     /*position: absolute;*/
     padding-bottom: 30px;
+    filter: drop-shadow(5px 5px 10px #516594);
 }
 
 h2 {
-    font-weight:bold;
+    font-weight: bold;
 }
 
 ul {
@@ -39,7 +39,7 @@ ul {
 }
 
 .btnEdit {
-    color: #5f3d8f;
+    color: #3941C6;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -50,7 +50,7 @@ ul {
 }
 
 .btnDelete  {
-    color: #5f3d8f;
+    color: #3941C6;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -60,7 +60,7 @@ ul {
 }
 
 .btnBack  {
-    color: #5f3d8f;
+    color: #3941C6;
     border: none;
     padding: 0;
     margin-left: 0;
@@ -101,7 +101,7 @@ input {
 
 
 .btnAddTask  {
-    color: #5f3d8f;
+    color: #3941C6;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -130,7 +130,7 @@ input {
 
 .saveBtn {
     border: none;
-    color: #5f3d8f;
+    color: #3941C6;
     background-color: transparent;
     cursor: pointer; 
     width: auto;
