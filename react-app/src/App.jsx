@@ -11,6 +11,7 @@ import Footer from './components/Footer.jsx'
 import DashBoard from './pages/Dashboard.jsx';
 import ItemDetails from './pages/ItemDetails.jsx';
 import AboutPage from './pages/AboutPage.jsx';
+import ErrorPage from './pages/ErrorPage.jsx';
 import TaskHistory from './pages/TaskHistory.jsx';
 
 
@@ -35,7 +36,7 @@ function App() {
             <Route path='/tasks/:taskId' element={<ItemDetails tasks={tasks}/>} />
             <Route path='/AboutPage' element={<AboutPage />} />
             <Route path='/TaskHistory' element={<TaskHistory tasks={tasks} setTasks = {setTasks}/>} />
-            <Route path='*' element={<h1>404 Page</h1>} />
+            <Route path='*' element={<ErrorPage/>} />
           </Routes>
         </div>
       <Footer />

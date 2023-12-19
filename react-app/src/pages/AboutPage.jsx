@@ -5,7 +5,7 @@ import imgHristina from '../images/Foto-Hristina.jpeg'
 import imgNoelia from '../images/Noelia.jpg'
 import imgMarine from '../images/Marine.jpg'
 import linkdn from '../images/linkedin.png'
-//import Collapsible from '../components/collapsible';
+
 import githabLogo from '../assets/githubLogo.png'
 
 import { Link } from 'react-router-dom'; 
@@ -17,7 +17,9 @@ function AboutPage() {
             
                   
                  <div className={classes.team}>
-                 <h2>The project :</h2> 
+                    <div className={classes.title}>
+                         <h2>The project :</h2> 
+                     </div>
                   <div className={classes.content}>
 
                          <div>
@@ -25,8 +27,9 @@ function AboutPage() {
                          </div>
                    </div >
             
-            
-                   <h2>The team :</h2> 
+                   <div className={classes.title}>
+                         <h2>The team :</h2> 
+                   </div>
                   <div className={classes.content}>
                       <div className={classes.info}>
                           <img src={imgNoelia} alt="Noelia" className={classes.img} />
@@ -48,8 +51,7 @@ function AboutPage() {
                           <img src={imgHristina} alt="Hristina" className={classes.img} />
                              <div className={classes.text}>
                                  <h3>Hristina</h3>
-                                 <p>Hi I am Hristina. I am a passionate UX Designer with background in architecture. 
-                                    Currently enrolled in the web development course, determined to further upskill my capabilities as a UX Designer.</p>
+                                 <p>Here what you want to say about you</p>
  
                              </div>
                              <div className={classes.iconeCtn}>
