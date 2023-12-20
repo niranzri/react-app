@@ -59,7 +59,7 @@ function AboutPage() {
                                 <img src={imgMarine} alt="Marine" className={classes.img} />
                                 <div className={classes.text}>
                                     <h3>Marine</h3>
-                                    <p>Hi, I am Marine. After a master degree in chemistry, I learned Java and I worked as a Java developper for 4 years. I started an IronHach bootcamp to learn new technical skills in web development. </p>
+                                    <p>Hi, I am Marine. After a master degree in chemistry, I learned Java and I worked as a Java developper for 4 years. I started the IronHack bootcamp in web development to learn new technical skills. </p>
                                     
                                 </div>
                                 <div className={classes.iconCtn}>
